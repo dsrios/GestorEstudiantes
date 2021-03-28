@@ -1,0 +1,45 @@
+create database GestorEstudiantes;
+use GestorEstudiantes;
+
+create table tipouser(
+    idtipouser int not null primary key,
+    descripcion varchar (50)
+    );
+
+create table usuarios (
+    id int auto_increment primary key,
+    username varchar (50) not null unique,
+    password varchar (50) not null, 
+    idtipouser int not null,
+    foreign key  (idtipouser) references tipouser (idtipouser) 
+    );
+    
+create table estudiantes (
+    idestudiante int not null primary key,
+    identificacion int not null unique, 
+    nombres varchar (100) not null, 
+    apellidos varchar (100) not null, 
+    edad int not null, 
+    nota1 double not null, 
+    nota2 double not null    
+    );
+
+
+INSERT INTO `tipouser`(`idtipouser`, `descripcion`) VALUES (1,'Administrador');
+INSERT INTO `tipouser`(`idtipouser`, `descripcion`) VALUES (2,'Profesor');
+
+INSERT INTO `usuarios`(`username`, `password`, `idtipouser`) VALUES ('Admin','Admin',1);
+INSERT INTO `usuarios`(`username`, `password`, `idtipouser`) VALUES ('Estandar','Estandar',2);
+
+
+
+
+#____________________NOTAS__________________________________
+
+#//http://www.hostdime.com.co/blog/guia-para-crear-un-sistema-de-inicio-de-sesion-y-registro-usando-php-y-mysql/
+
+#//http://jhernandz.es/noticia/consultas-base-datos-desde-php-con-pdo
+
+#//http://es.wikihow.com/hacer-s%C3%ADmbolos-con-ALT
+
+#//http://www2.uca.es/serv/sc/manual-html/form.htm?x=59&y=22	---manual de tipos de inputs

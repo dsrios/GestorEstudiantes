@@ -1,0 +1,42 @@
+.Cargartable {
+margin: auto;
+width: 590px;
+text-align: center;
+background: white;
+border: 1px solid silver;
+margin-bottom: 2%;
+
+}
+
+.filas:nth-child(2n+1) {
+background-color: gray;
+color:white
+}
+
+.tableu{
+margin: auto;
+width: 590px;
+text-align: center;
+background: rgba(105, 105, 105, 0.5);
+border: 1px solid silver;
+margin-bottom: 2%;
+}
+
+table{
+	margin: auto;
+}
+
+.Cargartablebd {
+margin: auto;
+width: 100%;
+text-align: center;
+border: 1px solid silver;
+margin-bottom: 2%;
+
+}
+
+.filasbd:nth-child(2n+1) {
+background-color: gray;
+color:white
+}
+

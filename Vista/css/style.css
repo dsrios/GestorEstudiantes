@@ -1,0 +1,110 @@
+header{
+	border: solid blue 3px;
+	border-radius: 5px;
+	background-color: rgba(45,22,245,0.5);
+	width: 80%;
+	height: 80%;
+	margin-left: 10%;
+	text-align: center;
+	font-family: Comic Sans MS;
+	font-size: 100%;
+	margin-top: 1%;
+    color: white;
+
+}
+
+td.nav{
+	border: solid black 1px;
+	border-radius: 5px;
+	display: block;
+	font-family: sans-serif;
+	border: 5px solid #ccc;
+    float: left;
+    margin-top: 2px;
+    border: solid black 2px;
+	border-radius: 10px;
+	background-color: rgba(4,132,208,0.7);
+	font-size: 190%;
+	
+	box-shadow: 2px 2px 5px #999;
+
+		
+}
+
+table {
+	margin-top: 2%;
+	margin-left: 18%;
+}
+
+
+td.nav:hover {
+	-webkit-transform: translate(30px, 0px);
+	-moz-transform: translate(30px, 0px);
+	-o-transform: translate(30px, 0px);
+	-ms-transform: translate(30px, 0px);
+	transform: translate(30px, 0px);
+
+	-webkit-transition-duration:1s;
+	-moz-transition-duration:1s;
+	-o-transition-duration:1s;
+	-ms-transition-duration:1s;
+  	transition-duration:1s;
+}
+
+/*cambiar color de los link*/
+A:link {text-decoration:none;color:white;} 
+A:visited {text-decoration:none;color:white;} 
+A:active {text-decoration:none;color:#ff0000;} 
+A:hover {text-decoration:none;color:#5CD053;} 
+
+
+.icon{
+	width: 50px;
+	height: 50px;
+	border-radius: 60px;
+	box-shadow: 2px 2px 5px #999;
+	margin-top: -5%;
+
+}
+ 
+
+
+footer{
+	border: solid blue 3px;
+	border-radius: 5px;
+	background-color: rgba(45,22,245,0.5);
+	width: 80%;
+	margin-left: 10%;
+	text-align: center;
+	font-family: Comic Sans MS;
+	font-size: 20px;
+	margin-top: 30px;
+	color: white;
+
+	
+}
+
+
+section{
+	border: solid blue 3px;
+	/*width: 750px;*/
+	width: 60%;
+	margin-left: 19%;
+	margin-top: 80px;
+	border-radius: 5px;
+    background-color: rgb(32, 169, 251);
+    float: center;
+    
+
+}
+
+
+
+#Contenido, ul, li{
+	font-family: Comic Sans MS;
+	text-align: left;
+	font-size: 15px;
+	color: black;
+}
+
+

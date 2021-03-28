@@ -1,0 +1,281 @@
+/*--- El estilo general para los campos del formulario ---*/
+.loguin_form h1{
+	background: none repeat scroll 0 0 black;
+	border-radius: 5px;
+	color: #5CD053;
+	display: block;
+	font-family: sans-serif;
+	font-size: 40px;
+	text-shadow: 1px 1px 1px #cccccc;
+	width: 100%;
+	text-align: center;
+	height: 65px;
+
+}
+
+.Bienvenida{
+	background: none repeat scroll 0 0 black;
+	border-radius: 5px;
+	color: #5CD053;
+	display: block;
+	font-family: sans-serif;
+	font-size: 40px;
+	text-shadow: 1px 1px 1px #cccccc;
+	width: 90%;
+	text-align: center;
+	height: 65px;
+	margin: 0 auto;
+
+}
+
+/*--- los estilos para los ul y li del formulario ---*/
+.loguin_form ul{
+width: 65%;
+list-style-type:none;
+margin:0px;
+padding:0px;
+margin-left: 13%;
+border-radius: 25px;
+border: solid 5px darkblue;
+padding: 5%;
+}
+
+.loguin_form li{
+padding:8px;
+
+}
+
+.loguin_form label{
+	color: #555555;
+	display: inline-block;
+	float: left;
+	font-family; sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	margin-top: 0px;
+	width: 170px;
+	padding: 1%;
+}
+
+.loguin_form input{
+	height: 20px;
+	width:220px;
+	padding:5px 8px;
+}
+
+
+/*--- los estilos visulaes de os elementos ---*/
+.loguin_form input{
+	border: 1px solid #aaa;
+	box-shadow: 0px 0px 3px #ccc, 0 10px 15px #eee inset;
+	border-radius: 2px;
+	color:#888;
+	font-size: 15px;
+	padding-right: 30px;
+	-moz-transition:padding .25s;
+	-webkit-transition: padding .25s;
+	-o-transition: padding .25s;
+	transition: padding .25s;
+}
+
+.loguin_form input:focus{
+	background: #fff;
+	border:1px solid #555;
+	box-shadow: 0 0 3px #aaa;
+	padding-right:80px;
+}
+
+/*--- los estilos de validacion ---*/
+.loguin_form input:required:valid{
+	box-shadow: 0 0 5px #5cd053;
+	border-color:#28921f;
+}
+
+.loguin_form input:focus:invalid{
+	box-shadow: 0 0 5px #d45252;
+	border-color: #b03535
+}
+
+/*-- los estilos del botonb de envio ---*/
+button.submit{
+	padding: 9px 50px;
+	font-family: Helvetica, Arial, sans-serif;
+	font-weight: bold;
+	line-height: 1;
+	color:#444;
+	border:none;
+	text-shadow: 0 1px 1px rgba(255,255,255, 0.85);
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, form(#fff), to(#bbb));
+	background-image: -moz-linear-gradient(0% 100% 90deg, #BBBBBB, #FFFFFF);
+	background-color: #fff;
+	border:1px solid #f1f1f1;
+	border-radius: 10px;
+	box-shadow: 0 1px 2px rgba(0,0,0,0.5);
+	float: left;
+}
+
+button.submit2{
+	padding: 9px 50px;
+	font-family: Helvetica, Arial, sans-serif;
+	font-weight: bold;
+	line-height: 1;
+	color:#444;
+	border:none;
+	text-shadow: 0 1px 1px rgba(255,255,255, 0.85);
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, form(#fff), to(#bbb));
+	background-image: -moz-linear-gradient(0% 100% 90deg, #BBBBBB, #FFFFFF);
+	background-color: #fff;
+	border:1px solid #f1f1f1;
+	border-radius: 10px;
+	box-shadow: 0 1px 2px rgba(0,0,0,0.5);
+	float: right;
+}
+
+
+button.submit:hover{
+	opacity: .55;
+	cursor:pointer;
+	color: red;
+}
+
+
+button.submit2:hover{
+	opacity: .55;
+	cursor:pointer;
+	color: red;
+}
+
+button.submit:active{
+border:1px solid #222;
+box-shadow: 0 0 10px 5px #444 inset;
+}
+
+button.submit2:active{
+border:1px solid #222;
+box-shadow: 0 0 10px 5px #444 inset;
+}
+
+.loguin_form img{
+	width: 90px;
+	height: 95px;
+	float: left;
+	margin-top: -30px;
+	border-radius: 60px;
+	box-shadow: 2px 2px 5px #999;
+}
+
+
+.ImgAdmin{
+	float: left;
+	margin-top: -30px;
+	border-radius: 60px;
+	box-shadow: 2px 2px 5px #999;
+}
+
+
+
+
+
+
+
+
+/*Nuevo Form*/
+/*--- El estilo general para los campos del formulario ---*/
+.contact_form h1{
+	background: none repeat scroll 0 0 black;
+	border-radius: 5px;
+	color: #5CD053;
+	display: block;
+	font-family: sans-serif;
+	font-size: 40px;
+	text-shadow: 1px 1px 1px #cccccc;
+	width: 100%;
+	text-align: center;
+	height: 65px;
+
+
+}
+
+/*--- los estilos para los ul y li del formulario ---*/
+.contact_form ul{
+width: 70%;
+list-style-type:none;
+margin:0px;
+padding:0px;
+margin: 0 auto;
+border-radius: 25px;
+margin-top: 0.5%;
+border: solid 5px blue;
+}
+
+.contact_form li{
+padding:2%;
+position:relative;
+}
+
+.contact_form label{
+	color: white;
+	display: inline-block;
+	float: left;
+	font-family; sans-serif;
+	font-size: 100%;
+	font-weight: bold;
+	margin-top: 3px;
+	width: 170px;
+
+}
+
+.ipt{
+	height: 20px;
+	width:220px;
+	padding:5px 8px;
+}
+
+/*--- los estilos visulaes de os elementos ---*/
+.ipt{
+	border: 1px solid #aaa;
+	box-shadow: 0px 0px 3px #ccc, 0 10px 15px #eee inset;
+	border-radius: 2px;
+	color:#888;
+	font-size: 12px;
+	padding-right: 30px;
+	-moz-transition:padding .25s;
+	-webkit-transition: padding .25s;
+	-o-transition: padding .25s;
+	transition: padding .25s;
+}
+
+.ipt:focus{
+	background: #fff;
+	border:1px solid #555;
+	box-shadow: 0 0 3px #aaa;
+	padding-right:80px;
+}
+
+/*--- los estilos de validacion ---*/
+.ipt:required:valid{
+	box-shadow: 0 0 5px #5cd053;
+	border-color:#28921f;
+}
+
+.ipt:focus:invalid{
+	box-shadow: 0 0 5px #d45252;
+	border-color: #b03535
+}
+
+span{
+	color: red;
+	margin-top: 15px;
+	margin-left: 5px;
+}
+
+.contact_form img{
+	width: 90px;
+	height: 95px;
+	float: left;
+	margin-top: -30px;
+	border-radius: 60px;
+	box-shadow: 2px 2px 5px #999;
+}
+
+
